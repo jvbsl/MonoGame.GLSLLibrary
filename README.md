@@ -1,6 +1,9 @@
 # MonoGame.GLSLLibrary
 A MonoGame GLSL Library to load GLSL Effect files compiled by (MonoGame.GLSLCompiler)
 ## Usage
+
+Use the MonoGame.Framework.dll from the lib folder, as it is a patched version of the MonoGame Framework, which allows us to get access to multiple internal types and members.
+
 Load your XNB Content files as usual:
 
 ```C#
